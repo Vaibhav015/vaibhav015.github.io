@@ -1,0 +1,20 @@
+/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+#bg-img{
+	background-image: url("../img/ba.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 110px;
+  background-color: #f5f5f5;
+}
