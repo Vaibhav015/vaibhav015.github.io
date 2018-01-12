@@ -15,11 +15,26 @@ body {
     box-sizing: border-box;
 }
 
+.meditate{
+  animation: float 6s ease-in-out infinite;
+}
+
 .footer {
   background-color: #0d1521;
   position: absolute;
   bottom: 0;
   width: 100%;
-  /* Set the fixed height of the footer here */
   height: 110px;
+}
+
+@keyframes float {
+  0% {
+    transform: translatey(0px);
+  }
+  50% {
+    transform: translatey(-20px);
+  }
+  100% {
+    transform: translatey(0px);
+  }
 }
