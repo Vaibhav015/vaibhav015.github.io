@@ -6,6 +6,11 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+.navbar-inverse {
+    background-color: #090d13;
+    border-color: #090d13;
+}
+
 .box{
     position: relative;
     width: 95%;
