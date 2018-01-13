@@ -66,3 +66,17 @@ p{
     transform: translatey(0px);
   }
 }
+
+/* Small devices (tablets, 768px and up) */
+@media (max-width: 768px) { 
+  #section0 .pad1{
+    padding-left: 40px;
+  }
+ }
+
+ @media (max-width: 768px) { 
+  #section1 .pad2{
+    padding-left: 35px;
+    margin-bottom: 20px;
+  }
+ }
