@@ -6,6 +6,37 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+p{
+  color: white;
+  letter-spacing: 2px;
+  line-height: 24px;
+}
+
+#section0{
+  padding-top:50px;
+  height: 500px;
+}
+#section1{
+  padding-top:80px;
+  height: 500px;
+}
+#section2{
+  padding-top:80px;
+  height: 500px;
+}
+#section3{
+  padding-top:80px;
+  height: 500px;
+}
+#section4{
+  padding-top:80px;
+  height: 500px;
+}
+#section5{
+  padding-top:80px;
+  height: 500px;
+}
+
 .navbar-inverse {
     background-color: #090d13;
     border-color: #090d13;
@@ -26,10 +57,10 @@ body {
 
 .footer {
   background-color: #0d1521;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
-  height: 110px;
+  height: 105px;
 }
 
 @keyframes float {

@@ -10,7 +10,7 @@
     
     <title>Vaibhav Sahu</title>
 
-    <link rel="icon" href="favicon.png">
+    <link rel="icon" href="assets/img/favicon.png">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
@@ -26,7 +26,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
 
   </head>
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
     <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container">
         <div class="navbar-header">
@@ -38,10 +38,19 @@
           </button>
           <a class="navbar-brand" href="#" style="color: white;">Vaibhav Sahu</a>
         </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#section1">About Me</a></li>
+            <li><a href="#section2">My Skills</a></li>
+            <li><a href="#section3">My Projects</a></li>
+            <li><a href="#section4">Blog</a></li>
+            <li><a href="#section5">Contact Me</a></li>
+          </ul>
+        </div><!-- navbar-collapse -->
       </div>
     </nav>
     <br/>
-    <div class="container">
+    <div id="section0" class="container">
         <div class="row">
             <div class="col-md-7">
                 <div class="box">
@@ -52,10 +61,27 @@
             <div class="col-md-4 meditate">
                 <img align="center" src="assets/img/ac.png">
             </div>  
-        </div>    
+        </div>  
+    </div>
+    <div id="section1" class="container">
+        <div class="row">  
+            <div class="col-md-4">
+                <img style="padding-top: 50px;" align="center" src="assets/img/ar.png">
+            </div> 
+            <div class="col-md-1"></div>
+            <div class="col-md-7">
+                <div class="box">
+                    <h1 style="color: white;">About Me</h1>
+                    <br/>
+                    <p>I am a third year undergraduate and currently pursuing a major in Computer Science and Engineering from ABES Engineering College, Ghaziabad, India. I am deeply interested in Algorithms and occasionally contributing to Open Source software. I am accustomed to working on Linux operating systems. I am a part of my college's premier coding club "Technovation Club", which has always been an awesome learning experience !!
+                    Passions of mine include Reading, Travelling, Writing, Chess, learning new things and Eating.. { ofcourse, if I get time apart from Programming and Academics! }
+                    I have been working for the past two years as a Web Developer and developed website for inter-college project expo at ABES EC.
+                    </p>
+                </div>
+            </div>  
+        </div>  
     </div>
     
-
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -85,10 +111,12 @@
         .pause(1000)
         .break()
         .break()
-        .type('Good to see you')
+        .type('Good to see you!!')
         .pause(1000)
-        .delete(15)
-        .type('I am Vaibhav Sahu');
+        // .delete(17)
+        .break()
+        .break()
+        .type('I am Vaibhav');
     </script>
     <!-- Bootstrap core JavaScript
     ================================================== -->
