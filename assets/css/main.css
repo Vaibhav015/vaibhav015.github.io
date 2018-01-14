@@ -1,8 +1,8 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   background-color: #0d1521;
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding-top: 30px;
+  padding-bottom: 10px;
   font-family: 'Montserrat', sans-serif;
 }
 
