@@ -71,12 +71,12 @@ p{
 @media (max-width: 768px) { 
   #section0 .pad1{
     padding-left: 40px;
+    padding-bottom: 10px;
   }
  }
 
  @media (max-width: 768px) { 
   #section1 .pad2{
-    padding-left: 35px;
-    margin-bottom: 20px;
+    height: 0;
   }
  }
