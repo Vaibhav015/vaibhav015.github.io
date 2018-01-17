@@ -97,19 +97,19 @@ h2{
  }
 
 @media (max-width: 768px) { 
-  #newsection1 .space1{
+  #newsection1 {
     height: 200px;
   }
  }
 
  @media (max-width: 768px) { 
-  #newsection2 .space2{
+  #newsection2 {
     height: 280px;
   }
  }
   
 @media (max-width: 768px) { 
-  #newsection3 .space3{
+  #newsection3 {
     height: 800px;
   }
  }
