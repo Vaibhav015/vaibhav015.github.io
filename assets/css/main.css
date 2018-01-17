@@ -113,10 +113,3 @@ h2{
     height: 800px;
   }
  }
-
-
- @media (max-width: 768px) { 
-  #psection .space4{
-    height: 100px;
-  }
- }
